@@ -1,7 +1,7 @@
 import requests
 from waste_collection_schedule import Collection  # type: ignore[attr-defined]
 from bs4 import BeautifulSoup
-from datetime import datetime
+from datetime import date
 
 TITLE = "Ikast-Brande Kommune"
 DESCRIPTION = "Renomatic for Ikast-Brande Kommune"
@@ -31,10 +31,10 @@ class Source:
         self._address_id = address_id
 
     def parse_date_with_year(self, date_string):
-        current_year = datetime.now().year
+        current_year = date.today().year
 
-        parsed_date = datetime.strptime(date_string, '%d-%m').replace(year=current_year)
-        return parsed_date if parsed_date >= datetime.now() else parsed_date.replace(year=current_year + 1)
+        parsed_date = date(current_year, *map(int, date_string.split('-')))
+        return parsed_date if parsed_date >= date.today() else parsed_date.replace(year=current_year + 1)
 
     def get_table_rows(self, soup):
         table = soup.find('div', id='table')
