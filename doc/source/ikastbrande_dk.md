@@ -9,12 +9,12 @@ waste_collection_schedule:
     sources:
     - name: ikastbrande_dk
       args:
-        id: See description
+        address_id: See description
 ```
 
 ### Configuration Variables
 
-**id**  
+**address_id**  
 _(String) (required)_
 
 ## Example
