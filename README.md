@@ -547,6 +547,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Fanø Kommune](/doc/source/affaldonline_dk.md) / fanoe.dk
 - [Favrskov Forsyning](/doc/source/affaldonline_dk.md) / favrskovforsyning.dk
 - [Fredericia Kommune Affald & Genbrug](/doc/source/affaldonline_dk.md) / affaldgenbrug-fredericia.dk
+- [Ikast-Brande Kommune](/doc/source/ikastbrande_dk.md) / skrald.ikast-brande.dk
 - [Kredsløb](/doc/ics/kredslob_dk.md) / kredslob.dk
 - [Langeland Forsyning](/doc/source/affaldonline_dk.md) / langeland-forsyning.dk
 - [Middelfart Kommune](/doc/source/affaldonline_dk.md) / middelfart.dk
