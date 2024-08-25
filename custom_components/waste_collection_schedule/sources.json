@@ -2554,6 +2554,11 @@
       }
     },
     {
+      "title": "Ikast-Brande Kommune",
+      "module": "ikastbrande_dk",
+      "default_params": {}
+    },
+    {
       "title": "Kredsl\u00f8b",
       "module": "ics",
       "default_params": {}
