@@ -1,4 +1,4 @@
-# Reno Djurs I/S
+# Ikast-Brande Kommune
 
 Support for schedules provided by [Ikast-Brande Kommune](https://skrald.ikast-brande.dk/), Denmark.
 
