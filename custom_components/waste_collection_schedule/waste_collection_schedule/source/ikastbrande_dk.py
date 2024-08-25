@@ -3,8 +3,8 @@ from waste_collection_schedule import Collection  # type: ignore[attr-defined]
 from bs4 import BeautifulSoup
 from datetime import datetime
 
-TITLE = "Ikast-Brande Municipality"
-DESCRIPTION = "Renomatic for Ikast-Brande Municipality"
+TITLE = "Ikast-Brande Kommune"
+DESCRIPTION = "Renomatic for Ikast-Brande Kommune"
 URL = "https://skrald.ikast-brande.dk/Tomningsinfo"
 INFO_COLUMN_INDEX = 0
 DATE_COLUMN_INDEX = 3
