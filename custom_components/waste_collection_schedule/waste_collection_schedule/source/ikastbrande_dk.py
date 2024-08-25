@@ -33,7 +33,8 @@ class Source:
     def parse_date_with_year(self, date_string):
         current_year = date.today().year
 
-        parsed_date = date(current_year, *map(int, date_string.split('-')))
+        day, month = map(int, date_string.split('-'))
+        parsed_date = date(current_year, month, day)
         return parsed_date if parsed_date >= date.today() else parsed_date.replace(year=current_year + 1)
 
     def get_table_rows(self, soup):
