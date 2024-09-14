@@ -72,7 +72,7 @@ class Source:
             if date_text == '':
                 continue
 
-            if "renovation" in info_text.lower() and not residual_waste_dates:
+            if "mad og rest" in info_text.lower() and not residual_waste_dates:
                 residual_waste_dates = self.retrieve_dates_from_row(date_text)                
             elif "genbrugsbeholder" in info_text.lower() and not recyclable_dates:
                 recyclable_dates = self.retrieve_dates_from_row(date_text)
